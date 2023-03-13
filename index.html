@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유재형의 Portfolio</title>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            width: 100%;
+            height: 300px;
+            background-color: rgb(240, 236, 227);
+            text-align: center;
+            font-size: 40px;
+        }
+        .content {
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            width: 950px;
+        }
+        .item {
+            width: 300px;
+            height: 300px;
+            border: 1px solid lightgray;
+        }
+        .space {
+            width: 10px;
+        }
+        #footer {
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 950px;
+            margin-bottom: 50px;
+            border-collapse: collapse;
+        }
+        #footer td {
+        }
+        .footer-header {
+            text-align: center;
+            height: 80px;
+            background-color: rgb(252, 255, 231);
+            /* border: 1px solid lightgray; */
+        }
+        .footer-icon{
+            width: 50px;
+            text-align: center;
+            /* border: 1px solid lightgray; */
+        }
+        .footer-content{
+            padding-left: 10px;
+            width: 100px;
+            height: 30px;
+            font-weight: bold;
+            /* border: 1px solid lightgray; */
+        }
+        .footer-space {
+            height: 25px;
+        }
+        table,tr,td {
+            /* border: 1px solid black; */
+        }
+        .item-icon {
+            height: 120px;
+        }
+        .item-info {
+            text-align: left;
+            height: 60px;
+            font-size: 14px;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!--
+        [1] 색상 조합 : https://colorhunt.co/
+        [2] 아이콘 : https://icons8.kr/icons
+
+    -->
+
+    <table id="header">
+        <tr>
+            <td>
+                유재형
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <hr width="100px" color="black">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                포트폴리오
+            </td>
+        </tr>
+    </table>
+
+    <table class="content">
+        <tr>
+            <td class="item">
+                <table>
+                    <tr>
+                        <td class="item-icon">
+                            <a href="http://frontendmaster.cafe24app.com/">
+                                <img src="os1.png" width="90%" height="400%">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-title">
+                            <h1>오설록</h1>
+                        </td>
+                    </tr>
+                  
+                </table>
+            </td>
+            <td class="space"></td>
+            <td class="item">
+                <table>
+                    <tr>
+                        <td class="item-icon">
+                            <a href="./tetris/index.html">
+                                <img src="tetris.png" width="180%">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-title">
+                            <h1>테트리스</h1>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <td class="item-info">
+                         
+                        </td>
+                    </tr> -->
+                </table>
+            </td>
+            <td class="space"></td>
+            <td class="item">
+                <table>
+                    <tr>
+                        <td class="item-icon">
+                            <a href="./dragon/index.html">
+                                <img src="dragon.png" width="80%">     
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-title" ><h1 >드래곤플라이트</h1></td>
+                    </tr>
+                  
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table class="content">
+        <tr>
+            <td class="item">
+                <table>    
+                    <tr>         
+                        <td class="item-icon">
+                            <a href="./달력/index.html">
+                                <img src="calendar.png" width="100%">    
+                            </a>       
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="item-title">
+                                <h1>달력</h1>              
+                            </td>
+                        </tr>
+                        
+                   
+                </table>
+            </td>
+            <td class="space"></td>
+            <td class="item">
+                <table>
+                    <tr>
+                        <td class="item-icon">
+                            <a href="./스피드게임/index.html">
+                                <img src="1to50.png" width="60%"> 
+                            </a>
+  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item-title"><h1>1 to 50</h1></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+ 
+
+    <table id="footer">
+        <tr>
+            <td class="footer-header" colspan="6"><h2>ABOUT ME</h2></td>
+        </tr>
+        <tr>
+            <td class="footer-space" colspan="6"></td>
+        </tr>
+        <tr>
+            <td class="footer-icon" rowspan="2"><img src="person.png" width="30px"></td>
+            <td class="footer-content">이름</td>
+            <td class="footer-icon" rowspan="2"><img src="address.png" width="30px"></td>
+            <td class="footer-content">주소지</td>
+            <td class="footer-icon" rowspan="2"><img src="email.png" width="30px"></td>
+            <td class="footer-content">이메일</td>
+        </tr>
+        <tr>
+            <td class="footer-content">유재형</td>
+            <td class="footer-content">서울특별시 관악구<br> 신림동</td>
+            <td class="footer-content">dbwogud1362@naver.com</td>
+        </tr>
+        <tr>
+            <td class="footer-icon" style="height: 55px;">
+                <img src="github.png" width="30px">
+            </td>
+            <td class="footer-content" colspan="5"><a href="https://github.com/fatherteresa/myportfolio">https://github.com/fatherteresa/myportfolio</a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
